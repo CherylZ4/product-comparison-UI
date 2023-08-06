@@ -1,0 +1,121 @@
+
+.Screen1{
+    background-image: url('ProductComparison.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    margin: 0;
+    padding:0px;
+    height: 100vh; 
+    
+  }
+
+
+
+.login{
+  color: #000000;
+  text-decoration: none;
+  font-family: 'Droid Sans';
+  font-size: 20px;
+  font-weight: 400;
+  left: 160px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 40px;
+  width: 90px;
+  padding: 20px 20px;
+}
+
+.history{
+  color: #000000;
+  text-decoration: none;
+  font-family: 'Droid Sans';
+  font-size: 20px;
+  font-weight: 400;
+  left: 850px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 40px;
+  width: 90px;
+  padding: 20px 20px;
+}
+
+.product-comparisons {
+    color: #000000;
+    font-family: 'Droid Sans';
+    font-size: 30px;
+    font-weight: 800;
+    left:300px;
+    top: 110px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    width: 300px;
+}
+
+.product1 {
+    color: #000000;
+    font-family: 'Droid Sans';
+    font-size: 20px;
+    font-weight: 400;
+    left: 390px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    top: 200px;
+    width: 10px;
+    
+    
+}
+
+
+.product2 {
+    color: #000000;
+    font-family: 'Droid Sans';
+    font-size: 20px;
+    font-weight: 400;
+    left: 305px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    top: 250px;
+    width: 10px;
+    
+
+}
+
+.box1{
+  position: absolute;
+  margin-top:  178px;
+  margin-left: 500px;
+  border-radius: 8px;
+  
+}
+.box2{
+  position: absolute;
+  margin-top: 226px;
+  margin-left: 500px;
+  border-radius: 8px;
+  
+}
+
+.button1 {
+  margin-top: 350px;
+  margin-left:480px;
+  margin-bottom: 200;
+  padding: 25px 30px;
+}
+
+.button:hover {
+  background: rgb(51, 50, 50);
+  border: rgb(51, 50, 50);
+  padding: 17px 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .overlap {
+    max-width: 80%; /* Adjust the max width for smaller screens */
+  }
+}

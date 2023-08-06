@@ -1,0 +1,40 @@
+
+.History {
+    background-color: aliceblue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    margin: 0;
+    padding:0px;
+    height: 100vh; 
+    
+}
+
+.home {
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Droid Sans';
+    font-size: 20px;
+    font-weight: 400;
+    left: 1000px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 30px;
+    width: 90px;
+    padding: 20px 20px;
+}
+
+.searchHistory {
+    color: #000000;
+    font-family: 'Droid Sans';
+    font-size: 30px;
+    font-weight: 800;
+    left: 320px;
+    top: 120px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    width: 300px;
+    z-index: 1;
+}

@@ -1,0 +1,34 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: product-comparison-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: product-comparison
+  template:
+    metadata:
+      labels:
+        app: product-comparison
+    spec:
+      containers:
+        - name: product-comparison
+          image: cherylzhang/product_comparison_ui
+          ports:
+            - containerPort: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: load-balancer
+spec:
+  type: nodePort
+  selector:
+     app: product-comparison
+  ports:
+  - port: 80
+    targetPort: 80
+    protocol: TCP
+    nodePort: 31000
+ 

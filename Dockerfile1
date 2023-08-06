@@ -1,0 +1,17 @@
+#stage 0-build frontend assets
+FROM node:18.2.0-alpine as build
+
+WORKDIR /app
+COPY package*.json ./
+RUN yarn install
+COPY . .
+RUN yarn build
+
+#stage 1-serve frontend assets
+FROM nginx:latest
+
+WORKDIR /usr/share/nginx/html
+RUN rm -rf ./*
+COPY --from=build /app/build .
+EXPOSE 80
+ENTRYPOINT ["nginx", "-g", "daemon off;"]

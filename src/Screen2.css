@@ -1,0 +1,168 @@
+
+.Screen2{
+    background-image: url('ProductComparison.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    margin: 0;
+    padding:0px;
+    height: 100vh; 
+  }
+
+
+
+
+.productComparison {
+    color: #000000;
+    font-family: 'Droid Sans';
+    font-size: 30px;
+    font-weight: 800;
+    left: 120px;
+    top: -50px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    width: 300px;
+}
+
+.back {
+    background: #FFDBDA;
+    font-family: 'Droid Sans';
+    font-size: 25px;
+    font-weight: 400;
+    position: absolute;
+    left: -80px;
+    top: -60px;
+    list-style-type: none;
+
+}
+
+.back li a{
+    text-decoration: none;
+    color:#000000;
+
+}
+
+
+.similarityScore {
+    color: #000000;
+    font-family: 'Droid Sans';
+    font-size: 25px;
+    font-weight: 400;
+    left: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 60px;
+    width: 200px;
+}
+
+.scoreResult{
+    color: #000000;
+    font-family: 'Droid Sans';
+    font-size: 25px;
+    font-weight: 350;
+    left: 220px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 62px;
+    width: 200px;
+
+}
+
+.commonIngredients {
+    color: #000000;
+    font-family: 'Droid Sans';
+    font-size: 25px;
+    font-weight: 400;
+    left: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 120px;
+    width: 500px;
+}
+
+.ingrResult{
+    color: #000000;
+    font-family: 'Droid Sans';
+    font-size: 20px;
+    font-weight: 350;
+    left: 290px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 125px;
+    width: 500px;
+}
+
+.product1Ingredients {
+    color: #000000;
+    font-family: 'Droid Sans';
+    font-size: 25px;
+    font-weight: 400;
+    left: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 200px;
+    width: 500px;
+}
+
+
+.p1Result{
+    color: #000000;
+    font-family: 'Droid Sans';
+    font-size: 20px;
+    font-weight: 350;
+    left: 350px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 205px;
+    width: 500px;
+}
+
+.product2Ingredients{
+    color: #000000;
+    font-family: 'Droid Sans';
+    font-size: 25px;
+    font-weight: 300;
+    left: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 290px;
+    width: 500px;
+
+}
+
+
+.p2Result{
+    color: #000000;
+    font-family: 'Droid Sans';
+    font-size: 20px;
+    font-weight: 350;
+    left: 350px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 290px;
+    width: 500px;
+}
+
+.history{
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Droid Sans';
+    font-size: 20px;
+    font-weight: 400;
+    left: 850px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 40px;
+    width: 90px;
+    padding: 20px 20px;
+  }
