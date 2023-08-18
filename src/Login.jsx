@@ -32,7 +32,7 @@ function Login() {
     };
    
     if (goToNext) {
-        return <Navigate to='/' state = {{userEmail:loginEmail}}/>
+        return <Navigate to='/'/>
     }
 
     return (

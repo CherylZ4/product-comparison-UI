@@ -2,14 +2,18 @@
 import "./index.css";
 import "./Screen2.css";
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, Navigate } from "react-router-dom";
 import {useLocation} from "react-router-dom";
 import { getGlobalData } from './globals';
 
 
 function Screen2(props) {
-  const globalValue = getGlobalData();
   const location = useLocation();
+  const globalValue = getGlobalData();
+  if (globalValue == null){
+    return  <Navigate to="/login"/>
+  }
+ 
   console.log(props, "props");
   console.log(location, " useLocation Hook");
 
