@@ -22,7 +22,7 @@ function Screen2(props) {
           <div className= "overlap-wrapper">
             <div className = "overlap">
             <div className = "back">
-                <li> <Link to = "/"> Back </Link></li>
+                <li> <Link className= "back2" to = "/"> Back </Link></li>
          </div>
          <Link className = "history" to = '/history'>  History</Link>
               <h1 className = "product-comparisons">

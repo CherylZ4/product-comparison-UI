@@ -43,6 +43,36 @@
 
 }
 
+.back2{
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Droid Sans';
+    font-size: 20px;
+    font-weight: 400;
+    left: 300px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 110px;
+    width: 90px;
+    padding: 20px 20px;
+}
+.back2:hover{
+    color: rgb(87, 86, 86);;
+    text-decoration: none;
+    font-family: 'Droid Sans';
+    font-size: 20px;
+    font-weight: 400;
+    left: 300px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 110px;
+    width: 90px;
+    padding: 20px 20px;
+}
+
+
 
 .similarityScore {
     color: #000000;
@@ -154,6 +184,21 @@
 
 .history{
     color: #000000;
+    text-decoration: none;
+    font-family: 'Droid Sans';
+    font-size: 20px;
+    font-weight: 400;
+    left: 850px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 40px;
+    width: 90px;
+    padding: 20px 20px;
+  }
+
+  .history:hover{
+    color: rgb(87, 86, 86);;
     text-decoration: none;
     font-family: 'Droid Sans';
     font-size: 20px;

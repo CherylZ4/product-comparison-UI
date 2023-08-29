@@ -45,7 +45,7 @@ function SignUp() {
          <input className="name2" placeholder  ="Email" onChange = {(event) => setRegisterEmail(event.target.value)}/>
             <input className="email2" placeholder  ="Password" onChange = {(event) => setRegisterPassword(event.target.value)} />
             <button className="button3" onClick={register}  >Sign Up</button>
-         <Link className="home2" to='/'>  Home </Link>
+         {/* <Link className="home2" to='/'>  Home </Link> */}
 
       </div>
 

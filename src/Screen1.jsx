@@ -1,7 +1,7 @@
 import "./index.css";
 import "./Screen1.css";
 import { Link, Navigate } from "react-router-dom";
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import axios from 'axios';
 import { getGlobalData } from './globals';
 

@@ -93,4 +93,19 @@
     z-index: 1;
   }
 
+  .loginLink:hover{
+    color: rgb(87, 86, 86);;
+    font-family: 'Droid Sans';
+    font-size: 20px;
+    font-weight: 400;
+    left: 415px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 400px;
+    width: 90px;
+    padding: 20px 20px;
+    z-index: 1;
+  }
+
 

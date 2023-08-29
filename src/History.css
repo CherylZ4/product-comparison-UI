@@ -11,18 +11,34 @@
     
 }
 
-.home2 {
+.homeButton {
     color: #000000;
     text-decoration: none;
     font-family: 'Droid Sans';
     font-size: 20px;
     font-weight: 400;
-    left: 950px;
+    right: 50px;
     letter-spacing: 0;
     line-height: normal;
-    top: 30px;
+    top: 20px;
     width: 90px;
     padding: 20px 20px;
+    position: absolute;
+    
+}
+.homeButton:hover {
+    color: rgb(87, 86, 86);;
+    text-decoration: none;
+    font-family: 'Droid Sans';
+    font-size: 20px;
+    font-weight: 400;
+    right: 50px;
+    letter-spacing: 0;
+    line-height: normal;
+    top: 20px;
+    width: 90px;
+    padding: 20px 20px;
+    position: absolute;
     
 }
 
@@ -37,11 +53,12 @@
     margin-top: 40px;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center horizontally */
+    align-items: center; 
     justify-content: center; 
+    
 }
 
 .record{
-    margin-top: 40px;
-    margin-left: 30px;
+    margin-top: 50px;
+    margin-left: 50px;
 }

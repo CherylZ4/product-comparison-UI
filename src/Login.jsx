@@ -45,7 +45,7 @@ function Login() {
             <input className="name" placeholder  ="Email" onChange = {(event) => setLoginEmail(event.target.value)}/>
             <input className="email" placeholder  ="Password" onChange = {(event) => setLoginPassword(event.target.value)} />
             <button className="button2" onClick={login}  >Login</button>
-            <Link className="home" to='/'>  Home </Link>
+            {/* <Link className="home" to='/'>  Home </Link> */}
             {/* {user.email} */}
         </div>
 

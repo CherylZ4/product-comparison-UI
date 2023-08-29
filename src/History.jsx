@@ -38,12 +38,12 @@ function History() {
 
    return (
       <div className="History">
-         <span className="searchHistory">
+
+    <div>
+    <span className="searchHistory">
             Search History
          </span>
-         
-    <div>
-    <Link className = "home2" to = '/'>  Home</Link>
+    <Link className = "homeButton" to = '/'>  Home</Link>
       {response.ProductRecords && response.ProductRecords.map((record, index) => (
             <div key={index} className="record">
                <p>Product 1: {record.product1}</p>
