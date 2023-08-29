@@ -10,7 +10,7 @@ import {Navigate } from "react-router-dom";
 function History() {
    const [response, setResponse] = useState({});
    const globalValue = getGlobalData();
-   
+   const previousGlobalValue = "";
    useEffect(() => {
        if (globalValue != null) {
       const request = {
@@ -23,7 +23,7 @@ function History() {
          const dataResponse = res.data;
          setResponse(dataResponse);
 
-
+         
       }
       ).catch(error => {
          console.log(error)

@@ -1,4 +1,4 @@
-// globals.js
+
 let globalData;
 
 export const setGlobalData = (data) => {
