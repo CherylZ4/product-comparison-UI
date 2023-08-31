@@ -1,5 +1,5 @@
 .Login {
-    background-color: aliceblue;
+    background-color: #FFDBDA;
     background-size: cover;
     background-repeat: no-repeat;
     border: none;
@@ -64,7 +64,7 @@ position: absolute;
     width: 350px;
     height: 400px;
     border-radius: 5px;
-    background-color: rgb(140, 211, 220);
+    background-color: #E3BDCE;
     z-index: 0;
    
 
